@@ -1,0 +1,306 @@
+1. Auto Close Tag
+2. Auto Rename Tag
+3. Code Runner
+4. CodeSnap
+5. Color Highlight
+6. CSS Flexbox Cheatsheet
+7. CSS Peek
+8. CSS Tree
+9. Format HTML in PHP
+10. Highlight Matching Tag
+11. HTML CSS Support
+12. HTML to CSS autocompletion
+13. HTML-LESS-Class_Completion
+14. IntelliSense for CSS class names in HTML
+15. JavaScript (ES6) code snippets
+16. Learn with Sumit Theme
+17. Live Sass Compiler
+18. Live Server
+19. HPH Debug
+20. PHP Files
+21. PHP Intelephense
+22. PHP Namespace Resolver
+23. phpfmt - PHP formatter
+24. Prettier - Code formatter
+25. Rainbow Brackets
+26. Settings Sync
+27. WordPress Hooks IntelliSense
+28. WordPress Snippets
+
+Setting is like
+
+{
+  "tabnine.experimentalAutoImports": true,
+  "workbench.startupEditor": "none",
+  "editor.mouseWheelZoom": true,
+  "code-runner.clearPreviousOutput": true,
+  "[php]": {
+    "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+  },
+  // liveSass setup
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/assets/css"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": true,
+  // Controls the font family.
+  "editor.fontFamily": "Fira Code, Operator Mono",
+  // Enables font ligatures
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "400",
+  "intelephense.files.exclude": [
+    "**/.git/**",
+    "**/.svn/**",
+    "**/.hg/**",
+    "**/CVS/**",
+    "**/.DS_Store/**",
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/vendor/**/{Tests,tests}/**",
+    "**/.history/**",
+    "**/vendor/**/vendor/**",
+    "wordpress"
+  ],
+  "intelephense.stubs": [
+    "apache",
+    "bcmath",
+    "bz2",
+    "calendar",
+    "com_dotnet",
+    "Core",
+    "ctype",
+    "curl",
+    "date",
+    "dba",
+    "dom",
+    "enchant",
+    "exif",
+    "FFI",
+    "fileinfo",
+    "filter",
+    "fpm",
+    "ftp",
+    "gd",
+    "gettext",
+    "gmp",
+    "hash",
+    "iconv",
+    "imap",
+    "intl",
+    "json",
+    "ldap",
+    "libxml",
+    "mbstring",
+    "meta",
+    "mysqli",
+    "oci8",
+    "odbc",
+    "openssl",
+    "pcntl",
+    "pcre",
+    "PDO",
+    "pdo_ibm",
+    "pdo_mysql",
+    "pdo_pgsql",
+    "pdo_sqlite",
+    "pgsql",
+    "Phar",
+    "posix",
+    "pspell",
+    "readline",
+    "Reflection",
+    "session",
+    "shmop",
+    "SimpleXML",
+    "snmp",
+    "soap",
+    "sockets",
+    "sodium",
+    "SPL",
+    "sqlite3",
+    "standard",
+    "superglobals",
+    "sysvmsg",
+    "sysvsem",
+    "sysvshm",
+    "tidy",
+    "tokenizer",
+    "xml",
+    "xmlreader",
+    "xmlrpc",
+    "xmlwriter",
+    "xsl",
+    "Zend OPcache",
+    "zip",
+    "zlib",
+    "wordpress"
+  ],
+  "editor.cursorSmoothCaretAnimation": true,
+  "explorer.confirmDelete": false,
+  "diffEditor.wordWrap": "on",
+  "security.workspace.trust.untrustedFiles": "open",
+  "html.format.templating": true,
+  "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
+  "intelephense.diagnostics.run": "onSave",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "html.format.endWithNewline": true,
+  "html.format.indentInnerHtml": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "phpfmt.detect_indent": true,
+  "phpfmt.enable_auto_align": true,
+  "html-css-class-completion.enableEmmetSupport": true,
+  "material-icon-theme.opacity": null,
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "explorer.confirmDragAndDrop": false,
+  "highlight-matching-tag.highlightSelfClosing": true,
+  "highlight-matching-tag.highlightFromContent": true,
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.html": "html"
+  },
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "left": {
+        "custom": {
+          // "backgroundColor":"silver",
+          "backgroundColor": "rgba(180, 20, 80, 0.6)"
+        }
+      },
+      "right": {
+        "custom": {
+          "backgroundColor": "rgba(180, 20, 80, 0.6)"
+        }
+      }
+    }
+  },
+  "code-runner.runInTerminal": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Learn with Sumit - Peace of the eye - Dracula version",
+  "editor.lineHeight": 1.5,
+  "auto-rename-tag.activationOnLanguage": ["*"],
+  "search.seedWithNearestWord": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "plist"
+  ],
+  "liveServer.settings.donotVerifyTags": true,
+  "code-runner.saveFileBeforeRun": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "settingsSync.ignoredExtensions": ["formulahendry.auto-rename-tag"],
+
+  "phpfmt.php_bin": "C:/xampp/php/php.exe",
+  "editor.renderControlCharacters": false,
+  "workbench.editor.enablePreview": false,
+  "terminal.integrated.cursorBlinking": true,
+  "debug.terminal.clearBeforeReusing": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "python -u",
+    "perl": "perl",
+    "perl6": "perl6",
+    "ruby": "ruby",
+    "go": "go run",
+    "lua": "lua",
+    "groovy": "groovy",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "bat": "cmd /c",
+    "shellscript": "bash",
+    "fsharp": "fsi",
+    "csharp": "scriptcs",
+    "vbscript": "cscript //Nologo",
+    "typescript": "ts-node",
+    "coffeescript": "coffee",
+    "scala": "scala",
+    "swift": "swift",
+    "julia": "julia",
+    "crystal": "crystal",
+    "ocaml": "ocaml",
+    "r": "Rscript",
+    "applescript": "osascript",
+    "clojure": "lein exec",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "racket": "racket",
+    "scheme": "csi -script",
+    "ahk": "autohotkey",
+    "autoit": "autoit3",
+    "dart": "dart",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "haskell": "runhaskell",
+    "nim": "nim compile --verbosity:0 --hints:off --run",
+    "lisp": "sbcl --script",
+    "kit": "kitc --run",
+    "v": "v run",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "sml": "cd $dir && sml $fileName"
+  },
+  "editor.detectIndentation": false,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorWidth": 1,
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false
+}
